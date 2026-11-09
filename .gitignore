@@ -1,0 +1,15 @@
+# KiCad auto-generated backups and temporary files
+*-backups/
+*.kicad_prl
+*.lck
+_autosave-*
+*.tmp
+git init
+git add .
+git commit -m "Initial commit: ADS1299 EEG schematic and PCB project"
+cat << 'EOF' > .gitignore
+*-backups/
+*.kicad_prl
+*.lck
+_autosave-*
+*.tmp
